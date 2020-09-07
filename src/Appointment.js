@@ -8,7 +8,6 @@ const Appointment = ({
       <table>
         <thead>
           <tr>
-            <th> </th>
             <th> First Name</th>
             <th> Last Name </th>
             <th> Phone Number </th>
@@ -18,12 +17,14 @@ const Appointment = ({
           </tr>
         </thead>
         <tbody>
-          <td>{firstName}</td>
-          <td>{lastName}</td>
-          <td>{phoneNumber}</td>
-          <td>{stylist}</td>
-          <td>{service}</td>
-          <td>{notes}</td>
+          <tr>
+            <td>{firstName}</td>
+            <td>{lastName}</td>
+            <td>{phoneNumber}</td>
+            <td>{stylist}</td>
+            <td>{service}</td>
+            <td>{notes}</td>
+          </tr>
         </tbody>
       </table>
     </div>
